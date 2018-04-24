@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fish_number">
+        <item>一条</item>
+        <item>两条</item>
+        <item>三条</item>
+    </string-array>
+
+    <string-array name="fish_number_code">
+        <item>001</item>
+        <item>002</item>
+        <item>003</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enable_touch_key"
+        android:title="Enable Touch" />
+    <ListPreference
+        android:dialogTitle="Please select the number of this fish"
+        android:entries="@array/fish_number"
+        android:entryValues="@array/fish_number_code"
+        android:key="red_fish_number_key"
+        android:summary="一条"
+        android:title="Select the number of this fish" />
+    <ListPreference
+        android:dialogTitle="Please select the number of this fish"
+        android:entries="@array/fish_number"
+        android:entryValues="@array/fish_number_code"
+        android:key="yellow_fish_number_key"
+        android:summary="一条"
+        android:title="Select the number of this fish" />
+    <ListPreference
+        android:dialogTitle="Please select the number of this fish"
+        android:entries="@array/fish_number"
+        android:entryValues="@array/fish_number_code"
+        android:key="blank_fish_number_key"
+        android:summary="一条"
+        android:title="Select the number of this fish" />
+</PreferenceScreen>
